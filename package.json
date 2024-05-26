@@ -1,0 +1,37 @@
+{
+  "name": "img-od2",
+  "version": "1.0.0",
+  "description": "Image Manipualtion Site",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1daydeveloper/img-od2.git"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "compress",
+    "image",
+    "size",
+    "od2",
+    "img"
+  ],
+  "author": "Pradeep Kumar O",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1daydeveloper/img-od2/issues"
+  },
+  "homepage": "https://github.com/1daydeveloper/img-od2#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
